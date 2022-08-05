@@ -12,7 +12,7 @@ export const MainView = () => {
                 <Typography>Task #5: Messaging system made with React/Redux/MUI/mongoDB/express + Socket.IO</Typography>
             </Box>
             <StyledBox>
-                {user? <UserPanel/> : <WelcomeDialog/>}
+                <UserPanel/>
             </StyledBox>
         </>
     )

@@ -8,6 +8,7 @@ export const BigTextField = styled((props) => (
       border: '4px solid #e2e2e1',
       overflow: 'hidden',
       borderRadius: 20,
+      height: '8vh',
       fontSize: 20,
       backgroundColor: theme.palette.mode === 'light' ? '#fcfcfb' : '#2b2b2b',
       transition: theme.transitions.create([
