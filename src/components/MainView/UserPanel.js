@@ -72,7 +72,6 @@ export const UserPanel = () => {
                 <BigTextField variant="filled"label="Error Rate" rows={1} onChange={handleErrorChange} value={error} />
                 <Slider value={error} onChange={handleSliderChange} aria-labelledby="input-slider" step={0.5} marks min={0} max={5}/>
                 <Dropdown region={region} handleRegionChange={handleRegionChange}></Dropdown>
-                <BigButton variant="contained" onClick={() => getEntries()}>Send</BigButton>
             </Box>
             <Box sx={{display: "flex", flexDirection: "column", margin: "2%", width: "100%"}}>
                 <DataList messages={entries} handleScrollEnd={handleScrollEnd} />
