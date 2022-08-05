@@ -9,7 +9,7 @@ export const MainView = () => {
     return(
         <>
             <Box>
-                <Typography>Task #5: Messaging system made with React/Redux/MUI/mongoDB/express + Socket.IO</Typography>
+                <Typography>Task #6: Generating random user data with Faker.js</Typography>
             </Box>
             <StyledBox>
                 <UserPanel/>
